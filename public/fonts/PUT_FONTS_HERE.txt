@@ -1,0 +1,3 @@
+Place these files here:
+- Vazirmatn-ExtraBold.ttf
+- Montserrat-Black.ttf

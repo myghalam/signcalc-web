@@ -1,0 +1,292 @@
+[
+  {
+    "id": "P01",
+    "title": "فقط متن - یک خط (مرکز)",
+    "layoutType": "TEXT_ONLY",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": false
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "CENTER",
+    "lines": 1,
+    "primaryLineHeightRatio": 0.6,
+    "secondaryLineHeightRatio": 0.0
+  },
+  {
+    "id": "P02",
+    "title": "فقط متن - دو خط (مرکز)",
+    "layoutType": "TEXT_ONLY",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": false
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "CENTER",
+    "lines": 2,
+    "primaryLineHeightRatio": 0.35,
+    "secondaryLineHeightRatio": 0.2
+  },
+  {
+    "id": "P03",
+    "title": "فقط متن - سه خط (مرکز)",
+    "layoutType": "TEXT_ONLY",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": false
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "CENTER",
+    "lines": 3,
+    "primaryLineHeightRatio": 0.26,
+    "secondaryLineHeightRatio": 0.18
+  },
+  {
+    "id": "P11",
+    "title": "لوگو چپ + متن یک خط",
+    "layoutType": "LOGO_LEFT_TEXT",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": true
+    },
+    "stackDirection": "HORIZONTAL",
+    "alignment": "CENTER",
+    "logoBlockWidthRatio": 0.25,
+    "logoBlockHeightRatio": 0.7,
+    "lines": 1,
+    "primaryLineHeightRatio": 0.52,
+    "secondaryLineHeightRatio": 0.0
+  },
+  {
+    "id": "P12",
+    "title": "لوگو راست + متن یک خط",
+    "layoutType": "LOGO_RIGHT_TEXT",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": true
+    },
+    "stackDirection": "HORIZONTAL",
+    "alignment": "CENTER",
+    "logoBlockWidthRatio": 0.25,
+    "logoBlockHeightRatio": 0.7,
+    "lines": 1,
+    "primaryLineHeightRatio": 0.52,
+    "secondaryLineHeightRatio": 0.0
+  },
+  {
+    "id": "P13",
+    "title": "لوگو چپ + متن دو خط",
+    "layoutType": "LOGO_LEFT_TEXT",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": true
+    },
+    "stackDirection": "HORIZONTAL",
+    "alignment": "CENTER",
+    "logoBlockWidthRatio": 0.25,
+    "logoBlockHeightRatio": 0.7,
+    "lines": 2,
+    "primaryLineHeightRatio": 0.32,
+    "secondaryLineHeightRatio": 0.18
+  },
+  {
+    "id": "P14",
+    "title": "لوگو راست + متن دو خط",
+    "layoutType": "LOGO_RIGHT_TEXT",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": true
+    },
+    "stackDirection": "HORIZONTAL",
+    "alignment": "CENTER",
+    "logoBlockWidthRatio": 0.25,
+    "logoBlockHeightRatio": 0.7,
+    "lines": 2,
+    "primaryLineHeightRatio": 0.32,
+    "secondaryLineHeightRatio": 0.18
+  },
+  {
+    "id": "P21",
+    "title": "لوگو بالا + متن یک خط",
+    "layoutType": "LOGO_TOP_TEXT",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": true
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "CENTER",
+    "logoBlockWidthRatio": 0.35,
+    "logoBlockHeightRatio": 0.3,
+    "lines": 1,
+    "primaryLineHeightRatio": 0.42,
+    "secondaryLineHeightRatio": 0.0
+  },
+  {
+    "id": "P22",
+    "title": "لوگو بالا + متن دو خط",
+    "layoutType": "LOGO_TOP_TEXT",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": true
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "CENTER",
+    "logoBlockWidthRatio": 0.35,
+    "logoBlockHeightRatio": 0.3,
+    "lines": 2,
+    "primaryLineHeightRatio": 0.28,
+    "secondaryLineHeightRatio": 0.18
+  },
+  {
+    "id": "P23",
+    "title": "لوگو پایین + متن یک خط",
+    "layoutType": "LOGO_BOTTOM_TEXT",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": true
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "CENTER",
+    "logoBlockWidthRatio": 0.35,
+    "logoBlockHeightRatio": 0.28,
+    "lines": 1,
+    "primaryLineHeightRatio": 0.44,
+    "secondaryLineHeightRatio": 0.0
+  },
+  {
+    "id": "P31",
+    "title": "فارسی بالا + انگلیسی پایین (بدون لوگو)",
+    "layoutType": "FA_EN_STACK",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": false
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "CENTER",
+    "lines": 2,
+    "primaryLineHeightRatio": 0.34,
+    "secondaryLineHeightRatio": 0.2
+  },
+  {
+    "id": "P32",
+    "title": "فارسی بالا + انگلیسی پایین + لوگو چپ",
+    "layoutType": "FA_EN_LOGO_LEFT",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": true
+    },
+    "stackDirection": "HORIZONTAL",
+    "alignment": "CENTER",
+    "logoBlockWidthRatio": 0.22,
+    "logoBlockHeightRatio": 0.65,
+    "lines": 2,
+    "primaryLineHeightRatio": 0.3,
+    "secondaryLineHeightRatio": 0.18
+  },
+  {
+    "id": "P33",
+    "title": "فارسی + انگلیسی + لوگو بالا",
+    "layoutType": "FA_EN_LOGO_TOP",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": true
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "CENTER",
+    "logoBlockWidthRatio": 0.3,
+    "logoBlockHeightRatio": 0.26,
+    "lines": 2,
+    "primaryLineHeightRatio": 0.28,
+    "secondaryLineHeightRatio": 0.17
+  },
+  {
+    "id": "P41",
+    "title": "لوگوتایپ تنها (متن به‌عنوان لوگو)",
+    "layoutType": "LOGOTYPE_ONLY",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": false
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "CENTER",
+    "lines": 1,
+    "primaryLineHeightRatio": 0.58,
+    "secondaryLineHeightRatio": 0.0,
+    "logoComplexityFactor": 1.15
+  },
+  {
+    "id": "P42",
+    "title": "لوگوتایپ + شعار کوچک زیر",
+    "layoutType": "LOGOTYPE_WITH_TAGLINE",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": false
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "CENTER",
+    "lines": 2,
+    "primaryLineHeightRatio": 0.42,
+    "secondaryLineHeightRatio": 0.16,
+    "logoComplexityFactor": 1.15
+  },
+  {
+    "id": "P51",
+    "title": "فقط متن - راست‌چین (فارسی)",
+    "layoutType": "TEXT_ONLY",
+    "supports": {
+      "fa": true,
+      "en": false,
+      "logo": false
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "RIGHT",
+    "lines": 1,
+    "primaryLineHeightRatio": 0.58,
+    "secondaryLineHeightRatio": 0.0
+  },
+  {
+    "id": "P52",
+    "title": "فقط متن - چپ‌چین (انگلیسی)",
+    "layoutType": "TEXT_ONLY",
+    "supports": {
+      "fa": false,
+      "en": true,
+      "logo": false
+    },
+    "stackDirection": "VERTICAL",
+    "alignment": "LEFT",
+    "lines": 1,
+    "primaryLineHeightRatio": 0.58,
+    "secondaryLineHeightRatio": 0.0
+  },
+  {
+    "id": "P53",
+    "title": "دو ستون متن (راست و چپ)",
+    "layoutType": "TWO_COLUMN_TEXT",
+    "supports": {
+      "fa": true,
+      "en": true,
+      "logo": false
+    },
+    "stackDirection": "HORIZONTAL",
+    "alignment": "CENTER",
+    "columns": 2,
+    "primaryLineHeightRatio": 0.4,
+    "secondaryLineHeightRatio": 0.0
+  }
+]
